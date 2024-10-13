@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        h1{
+            font-family: Arial, sans-serif;
+            height: 5vh;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #frm{
+            border: 0px solid black;
+            padding: 70px;
+            width: 250px;
+            border-radius: 2em;
+            background-color: rgba(255, 255, 255, 0.334);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.096);
+        }
+        body{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 90vh;
+           font-family: Arial, sans-serif;
+           margin: 0;
+           background-image: url('https://static.vecteezy.com/system/resources/previews/036/226/872/non_2x/ai-generated-nature-landscapes-background-free-photo.jpg');
+        }
+        form{
+            flex-direction: column;
+            display: flex;
+        }
+        input[type="text"],input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        input[type="submit"]{
+            background-color: rgb(44, 49, 109);
+            padding: 15px;
+            width: 10vh;
+            border-radius: 1.5em;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            justify-content: center;
+            font-size: medium;
+        }
+        #btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        #navi{
+            align-items: right;
+            justify-content: right;
+            display: inherit;
+            margin-top: 4vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="frm">
+        <form action="">
+                <h1>Login</h1>
+                <label for="username">Username</label>
+                <input type="text" required><br>
+                <label for="pass">Password</label>
+                <input type="password" required><br>
+                <div id="btn">
+                    <input type="submit" value="login">
+                </div>
+                <div id="navi">
+                    <a href="facebook.com">Forget Password?</a>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
