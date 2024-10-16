@@ -1,0 +1,323 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(test/logo/bacground.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+ 
+.navbar{
+    width: 1400px;
+    height: 90px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    font-size: 35px;
+    font-family: Arial;
+    color: rgb(95, 250, 12);
+    padding-left: 18px;
+    padding-top: 13px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 72px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(0, 94, 48);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 380px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(95, 250, 12);
+    margin-top: 13px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    height: 45px;
+    background: rgb(95, 250, 12);
+    border: 2px solid black;
+    margin-top: 11px;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-left: 2px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+
+.content .gs{
+    width: 140px;
+    height: 40px;
+    background: rgb(95, 250, 12);
+    border: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.content .gs a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.gs:hover{
+    background-color: rgb(0, 94, 48);
+}
+
+.content span{
+    color: rgb(95, 250, 12);
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: rgba(48, 47, 47, 0.336);
+    position: absolute;
+    top: -20px;
+    left: 930px;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 2px 2px 2px rgba(48, 47, 47, 0.336);
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(95, 250, 12);
+    margin: 2px;
+    padding: 8px;
+    font-size: 25px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    padding-left: 10px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-family: Arial;
+    color: #fff;
+}
+
+.btn1{
+    width: 180px;
+    height: 40px;
+    background: rgb(95, 250, 12);
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: rgb(0, 94, 48);
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: rgb(0, 94, 48);
+    font-size: 16px;
+    font-weight: bold;
+}
+.liw{
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.btn-google{
+    background-color: #fff;
+    color: rgb(222, 6, 6);
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 2px;
+    margin-top: 10px;
+    padding: 5px 6px;
+
+}
+
+.btn-facebook{
+    background-color: #0055ff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 5px 6px;
+
+}
+
+.btn-github{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 5px 6px;
+
+}
+
+.btn-twitter{
+    background-color: #009dff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 5px 6px;
+
+}
+
+.btn-skype{
+    background-color: #009dff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 5px 6px;
+}
+
+.main .footer{
+    color: white;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    margin-top: 334px;
+    background-color: black;
+    padding: 20px;
+}
